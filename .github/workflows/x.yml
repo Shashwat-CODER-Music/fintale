@@ -45,12 +45,12 @@ jobs:
               try {
                   console.log('Fetching downloads.json...');
                   const downloads = await httpsGet(
-                      'https://raw.githubusercontent.com/Shashwat-CODING/akki/refs/heads/main/downloads.json'
+                      'https://raw.githubusercontent.com/Shashwat-CODER-Music/fintale/refs/heads/main/downloads.json'
                   );
 
                   console.log('Fetching channel data...');
                   const channelData = await httpsGet(
-                      'https://backendmix.vercel.app/c/UCyBzV_g6Vfv5GM3aMQb3Y_A'
+                      'https://backendmix.vercel.app/c/UCn372MiubHTkPFwxKVv45LQ'
                   );
 
                   if (channelData.status !== 'ok' || !channelData.videos) {
